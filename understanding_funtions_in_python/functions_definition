@@ -1,0 +1,6 @@
+def greet(self, name, position):
+    self.name = name
+    self.position =position
+    print(f"good morning {position} {name}, you are welcome to our office.")
+
+greet(ada, president)
